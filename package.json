@@ -1,0 +1,26 @@
+{
+  "name": "electron-typescript-vscode",
+  "version": "0.1.0",
+  "description": "A template for Electron TypeScript apps with VSCode debugging.",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/damieng/electron-typescript-vscode",
+  "keywords": [
+    "typescript",
+    "electron",
+    "debug",
+    "template"
+  ],
+  "author": "Damien Guard",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.11"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}
